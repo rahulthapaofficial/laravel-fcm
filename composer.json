@@ -1,0 +1,57 @@
+{
+  "name": "rahulthapaofficial/laravel-fcm",
+  "description": "Laravel / Lumen package for Firebase Cloud Messaging ",
+  "keywords": [
+    "laravel",
+    "lumen",
+    "firebase",
+    "notification",
+    "push",
+    "fcm",
+    "firebase cloud messaging"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rahul Thapa",
+      "email": "rahulthapaofficial@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+    "guzzlehttp/guzzle": "^6.0|^7.0",
+    "monolog/monolog": "^1.0|^2.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "4.7.*",
+    "satooshi/php-coveralls": "dev-master",
+    "laravel/laravel": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelFCM\\": "src/",
+      "LaravelFCM\\Mocks\\": "tests/mocks"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelFCM\\FCMServiceProvider"
+      ],
+      "aliases": {
+        "FCM": "LaravelFCM\\Facades\\FCM",
+        "FCMGroup": "LaravelFCM\\Facades\\FCMGroup"
+      }
+    }
+  }
+}
