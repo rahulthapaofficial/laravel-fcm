@@ -27,7 +27,7 @@
   "require-dev": {
     "mockery/mockery": "0.9.*",
     "phpunit/phpunit": "4.7.*",
-    "satooshi/php-coveralls": "dev-master",
+    "php-coveralls/php-coveralls": "dev-master",
     "laravel/laravel": "5.2.*"
   },
   "autoload": {
@@ -52,6 +52,11 @@
         "FCM": "LaravelFCM\\Facades\\FCM",
         "FCMGroup": "LaravelFCM\\Facades\\FCMGroup"
       }
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": true
     }
   }
 }
