@@ -1,6 +1,6 @@
 # Laravel-FCM
 
-[![Build Status](https://travis-ci.org/rahulthapaofficial/laravel-fcm.svg?branch=master)](https://travis-ci.org/rahulthapaofficial/laravel-fcm) [![Coverage Status](https://coveralls.io/repos/github/rahulthapaofficial/laravel-fcm/badge.svg?branch=master)](https://coveralls.io/github/rahulthapaofficial/laravel-fcm?branch=master) [![Latest Stable Version](https://poser.pugx.org/rahulthapaofficial/laravel-fcm/v/stable)](https://packagist.org/packages/rahulthapaofficial/laravel-fcm) [![Total Downloads](https://poser.pugx.org/rahulthapaofficial/laravel-fcm/downloads)](https://packagist.org/packages/rahulthapaofficial/laravel-fcm)
+[![Build Status](https://travis-ci.org/rahulthapaofficial/laravel-fcm.svg?branch=main)](https://travis-ci.org/rahulthapaofficial/laravel-fcm) [![Coverage Status](https://coveralls.io/repos/github/rahulthapaofficial/laravel-fcm/badge.svg?branch=main)](https://coveralls.io/github/rahulthapaofficial/laravel-fcm?branch=master) [![Latest Stable Version](https://poser.pugx.org/rahulthapaofficial/laravel-fcm/v/stable)](https://packagist.org/packages/rahulthapaofficial/laravel-fcm) [![Total Downloads](https://poser.pugx.org/rahulthapaofficial/laravel-fcm/downloads)](https://packagist.org/packages/rahulthapaofficial/laravel-fcm)
 [![License](https://poser.pugx.org/rahulthapaofficial/laravel-fcm/license)](https://packagist.org/packages/rahulthapaofficial/laravel-fcm)
 
 ## Introduction
@@ -28,7 +28,7 @@ Or you can add it directly in your composer.json file:
 ```json
 {
   "require": {
-    "rahulthapaofficial/laravel-fcm": "^1.4.*"
+    "rahulthapaofficial/laravel-fcm": "1.0.*"
   }
 }
 ```
